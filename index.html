@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suleaga K - UI/UX Designer Portfolio">
+  <title>Suleaga K | UI/UX Designer</title>
+
+  <!-- Google Fonts: Inter for a modern look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg py-4">
+    <div class="container align-items-center">
+      <!-- Links on the left (Home, Project, Contact me) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#projects">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#contact">Contact me</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- "Hire Me" button on the right -->
+      <div class="d-none d-lg-block">
+        <a href="#contact" class="btn btn-primary-custom px-4 py-2 fw-semibold">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-md-row">
+        <!-- Text Content -->
+        <div class="col-md-6 mt-5 mt-md-0 text-center text-md-start hero-text-container">
+          <p class="greeting-text mb-1">Hi I am</p>
+          <h2 class="name-text fw-bold mb-1">Suleaga.K</h2>
+
+          <h1 class="role-text fw-bolder mb-4">
+            <span class="text-dark">UI/UX</span> <span class="text-primary-custom">designer</span>
+          </h1>
+
+          <p class="description-text mb-5 text-muted">
+            UI/UX Designer passionate about designing intuitive and engaging mobile and web experiences.
+          </p>
+
+          <div
+            class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-md-start button-group">
+            <a href="#hire" class="btn btn-primary-custom btn-lg px-5 py-2 fw-semibold">Hire Me</a>
+            <a href="#download" class="btn btn-outline-custom btn-lg px-5 py-2 fw-semibold shadow-sm">Download CV</a>
+          </div>
+        </div>
+
+        <!-- Image Content -->
+        <div class="col-md-6 text-center hero-image-container">
+          <div class="profile-img-wrapper mx-auto">
+            <img src="assets/profile.jpg" alt="Suleaga.K - UI/UX Designer" class="img-fluid profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section py-5">
+    <div class="container text-center mt-5">
+      <h2 class="section-title fw-bold position-relative d-inline-block pb-2 mb-4">
+        Services
+        <span class="title-underline"></span>
+      </h2>
+      <p class="fs-4 fw-medium services-subtitle mb-5">
+        Designing intuitive and engaging mobile and web interfaces using modern UI/UX principles.
+      </p>
+
+      <!-- Services Grid -->
+      <div class="row justify-content-center g-4 mt-2">
+        <!-- UI Design Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 p-md-5 h-100 rounded-4">
+            <div class="service-icon-wrapper mb-4 text-primary-custom d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                class="bi bi-person-video" viewBox="0 0 16 16">
+                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                <path
+                  d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1z" />
+              </svg>
+            </div>
+            <h3 class="service-title fw-bold mb-3">UI Design</h3>
+            <p class="service-desc text-muted m-0">Creating clean and visually appealing interfaces for mobile apps and
+              websites.</p>
+          </div>
+        </div>
+
+        <!-- UX Design Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 p-md-5 h-100 rounded-4">
+            <div class="service-icon-wrapper mb-4 text-primary-custom d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-people"
+                viewBox="0 0 16 16">
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+              </svg>
+            </div>
+            <h3 class="service-title fw-bold mb-3">UX Design</h3>
+            <p class="service-desc text-muted m-0">Designing user-friendly experiences that make digital products easy
+              to use.</p>
+          </div>
+        </div>
+
+        <!-- Wireframing Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 p-md-5 h-100 rounded-4">
+            <div class="service-icon-wrapper mb-4 text-primary-custom d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-grid-1x2"
+                viewBox="0 0 16 16">
+                <path
+                  d="M6 1H1v14h5zm9 0h-5v5h5zm0 9h-5v5h5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1z" />
+              </svg>
+            </div>
+            <h3 class="service-title fw-bold mb-3">Wireframing</h3>
+            <p class="service-desc text-muted m-0">Creating basic layouts and structure for apps and websites before
+              final design.</p>
+          </div>
+        </div>
+
+        <!-- Mobile App Design Card -->
+        <div class="col-md-6 col-lg-5">
+          <div class="service-card p-4 p-md-5 h-100 rounded-4">
+            <div class="service-icon-wrapper mb-4 text-primary-custom d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-phone"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+              </svg>
+            </div>
+            <h3 class="service-title fw-bold mb-3">Mobile app design</h3>
+            <p class="service-desc text-muted m-0">Designing modern and responsive mobile app interfaces.</p>
+          </div>
+        </div>
+
+        <!-- Prototyping Card -->
+        <div class="col-md-6 col-lg-5">
+          <div class="service-card p-4 p-md-5 h-100 rounded-4">
+            <div class="service-icon-wrapper mb-4 text-primary-custom d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-layers"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0zM8 9.433 1.562 6 8 2.567 14.438 6z" />
+              </svg>
+            </div>
+            <h3 class="service-title fw-bold mb-3">Prototyping</h3>
+            <p class="service-desc text-muted m-0">Building interactive prototypes to show how the design works.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section py-5 " style="background-color: orange;">
+    <div class="container text-center mt-5 mb-5">
+      <h2 class="section-title fw-bold position-relative d-inline-block pb-2 mb-5">
+        Projects
+        <span class="title-underline"></span>
+      </h2>
+
+      <div class="row g-5 text-start">
+
+        <!-- E-Learning Project Box -->
+        <div class="col-lg-9 mx-auto project-card-wrapper fade-in-up mb-5">
+          <div
+            class="project-box project-box-light rounded-5 p-4 p-md-5 position-relative overflow-hidden d-flex flex-column flex-md-row align-items-center shadow-sm">
+
+            <div class="project-content col-md-7 pe-md-5">
+              <h3 class="project-title fw-bolder mb-3">E-Learning App</h3>
+              <p class="project-desc fs-5 lh-base mb-4">
+                A Mobile E-Learning App Designed To Help Users Discover Courses, Watch Lessons, And Track Their Learning
+                Progress Through A Clean And Intuitive User Interface.
+              </p>
+              <a href="#" class="btn btn-magenta rounded-pill fs-5 fw-semibold shadow-sm">View Project</a>
+            </div>
+
+            <div class="project-image-container col-md-5 mt-5 mt-md-0 d-flex justify-content-end align-items-center">
+              <img src="assets/images/elearning.png" alt="E-Learning App Mockup" class="project-mockup img-fluid">
+            </div>
+          </div>
+        </div>
+
+        <!-- Food Delivery Project Box -->
+        <div class="col-lg-9 mx-auto project-card-wrapper fade-in-up">
+          <div
+            class="project-box bg-white shadow-sm rounded-5 p-0 position-relative overflow-hidden d-flex flex-column flex-md-row align-items-stretch">
+
+            <div class="project-content col-md-7 p-4 p-md-5 d-flex flex-column justify-content-center">
+              <h3 class="project-title fw-bolder mb-3">Food Delivery App</h3>
+              <p class="project-desc fs-5 lh-base mb-4 fw-medium text-muted">
+                A User-Centered Food Delivery Mobile App Designed To Simplify The Process Of Discovering Restaurants,
+                Browsing Menus, And Ordering Food Through A Clean And Intuitive Interface.
+              </p>
+              <a href="#"
+                class="btn btn-primary-custom rounded-pill align-self-start px-4 py-2 fs-5 fw-semibold shadow-sm">View
+                Project</a>
+            </div>
+
+            <div class="project-image-container col-md-5 d-flex align-items-center justify-content-center p-3"
+              style="background-color: var(--primary-color);">
+              <!-- Inner white box border if needed, or just the mockup -->
+              <div
+                class="p-4 border border-2 border-white rounded-4 w-100 h-100 d-flex align-items-center justify-content-center">
+                <h4 class="text-white fw-bold text-center">FOOD DELIVERY APP<br><small class="fw-normal">Version
+                    1.0</small></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section & Footer -->
+  <section id="contact" class="contact-section pt-5 pb-3">
+    <div class="container text-center mt-5 text-white">
+      <h2 class="contact-title fw-medium d-inline-block border border-2 border-white px-4 py-2 mb-5">
+        Contact Me
+      </h2>
+
+      <div class="row text-start mt-4 mb-5">
+        <div class="col-lg-6 pe-lg-5 mb-5 mb-lg-0">
+          <p class="contact-desc fs-4 lh-lg fw-medium">
+            Let's Connect And Create Something Amazing Together! I'm Always Open To New Opportunities, Collaborations,
+            And Creative Projects. Feel Free To Reach Out If You'd Like To Work Together.
+          </p>
+        </div>
+
+        <div class="col-lg-6 ps-lg-5">
+          <div class="row mb-4">
+            <div class="col-4 text-primary-custom fs-4 fw-medium">Contact</div>
+            <div class="col-4 text-primary-custom fs-4 fw-medium">Details</div>
+          </div>
+
+          <div class="row contact-detail-row fs-5 mb-3 align-items-center">
+            <div class="col-4">Mobile</div>
+            <div class="col-8">9344117431</div>
+          </div>
+
+          <div class="row contact-detail-row fs-5 mb-3 align-items-center">
+            <div class="col-4">Mail</div>
+            <div class="col-8 text-break">suleaga19@gmail.com</div>
+          </div>
+
+          <div class="row contact-detail-row fs-5 mb-3 align-items-center">
+            <div class="col-4">Service</div>
+            <div class="col-8">Ui/Ux Designer</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Links -->
+      <div class="d-flex justify-content-center gap-4 mt-5 mb-5 pb-3">
+        <a href="#" class="social-icon fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+            fill="currentColor" class="bi bi-behance" viewBox="0 0 16 16">
+            <path
+              d="M4.654 6.461c.094-.068.12-.132.12-.249 0-.441-.186-.697-.478-.813-.207-.087-.514-.087-.803-.087H1.328v2.663h2.384c.319 0 .644-.047.854-.23.111-.088.167-.204.167-.323 0-.46-.35-.741-.85-.811L4.654 6.46zm1.066 3.633c.313-.243.432-.572.432-.974 0-.45-.224-.872-.575-1.096-.289-.187-.69-.228-1.042-.228H1.328v3.13h2.464c.334 0 .741-.044 1.053-.263.125-.098.156-.201.156-.341L5.72 10.094z" />
+            <path
+              d="M7 11.53c.123.123.277.202.457.24a2.9 2.9 0 0 0 1.25-.035c.29-.08.528-.27.674-.53.117-.205.158-.458.158-.696h1.22c-.017.653-.306 1.254-.805 1.642-.276.215-.62.333-.967.382a3.8 3.8 0 0 1-1.42-.036c-.457-.13-.861-.397-1.18-.748-.31-.341-.532-.76-.64-1.206a4.2 4.2 0 0 1-.06-1.57c.105-.444.316-.856.61-1.201.29-.345.67-.621 1.096-.81a3.6 3.6 0 0 1 1.488-.24c.481.019.95.145 1.365.37.408.22.756.541 1.002.932.257.411.411.892.443 1.385.011.168.016.347.016.516v.382H6.945c.01.324.086.64.225.923.136.275.344.502.585.673a1.9 1.9 0 0 0 .741.258h.04zM8.88 7.37c-.312.001-.62.13-.85.34-.236.216-.402.496-.48.804h2.155c-.065-.294-.218-.558-.431-.762-.218-.21-.5-.353-.805-.39a1.6 1.6 0 0 0-.154-.035" />
+            <path
+              d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2.083 10.43h4.634v-1.132H3.456V6.03H2.083zm7.042-4.992h2.246v-.84h-2.246z" />
+          </svg></a>
+        <a href="#" class="social-icon fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+            fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8s.01 2.444.048 3.297c.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 8 0m-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.036 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+          </svg></a>
+        <a href="#" class="social-icon fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+            fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+          </svg></a>
+      </div>
+
+      <hr class="border-secondary opacity-50 mb-4">
+
+      <div class="footer-copyright fs-6 text-secondary pb-3">
+        Designed by @suleaga UI/UX designer
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery & Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
